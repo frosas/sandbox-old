@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook Graph</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script src="http://connect.facebook.net/en_US/all.js"></script>
+        <script src="libs/arbor/lib/arbor.js"></script>
+        <script src="main.js"></script>
+        <style>
+            a.login, a.logout { display: none }
+        </style>
+    </head>
+    <body>
+
+        <div id="fb-root"></div>
+
+        <p>
+            <a class="login" href="#">Login</a>
+            <a class="logout" href="#">Logout</a>
+        </p>
+
+        <canvas id="viewport" width="800" height="600"></canvas>
+    </body>
+</html>
