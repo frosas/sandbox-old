@@ -7,7 +7,7 @@
             height: $(window).height()
         })
 
-        var sys = arbor.ParticleSystem(10, 10, 0.5, true)
+        var sys = arbor.ParticleSystem(20, 100, 0.7, true);
 
         sys.renderer = (function() {
 
@@ -30,7 +30,7 @@
 
                     clear()
 
-                    context.strokeStyle = 'rgba(0, 0, 0, .05)'
+                    context.strokeStyle = 'rgba(0, 0, 0, 0.03)'
                     context.lineWidth = 1
                     sys.eachEdge(function(edge, source, target) {
                         context.beginPath()
