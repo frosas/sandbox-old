@@ -95,7 +95,10 @@
         }
 
         var initFacebook = function() {
-            FB.init({ appId: '151058681629033', cookie: true })
+            
+            $('body').append($('<div>').attr({id: 'fb-root'}))
+            FB.init({ appId: '151058681629033' })
+            
             initFacebookLogin()
         }
 
