@@ -8,3 +8,4 @@
   - Try Protovis (http://vis.stanford.edu/protovis/ex/force.html)
 - Organize code better
 - Friends with no relationships don't appear
+- Development app version
